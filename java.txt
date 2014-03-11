@@ -1,35 +1,35 @@
-Set ²»ÔÊĞíÖØ¸´
-TreeSet ±È½ÏµÄ½á¹ûÉıĞòÅÅÁĞ£¬ºìºÚÊ÷
-LinkedHashSet ±£´æ²åÈëË³Ğò£¬²¢±£Áô¿ìËÙ²éÑ¯
-HashSet ¿ìËÙ²éÕÒ
+Set ä¸å…è®¸é‡å¤
+TreeSet æ¯”è¾ƒçš„ç»“æœå‡åºæ’åˆ—ï¼Œçº¢é»‘æ ‘
+LinkedHashSet ä¿å­˜æ’å…¥é¡ºåºï¼Œå¹¶ä¿ç•™å¿«é€ŸæŸ¥è¯¢
+HashSet å¿«é€ŸæŸ¥æ‰¾
 
 Map
-TreeMap ÉıĞòÅÅÁĞ
-HashMap ¿ìËÙ²éÕÒ
-LinkedHashMap ±£´æ²åÈëË³Ğò£¬²¢±£Áô¿ìËÙ²éÑ¯
+TreeMap å‡åºæ’åˆ—
+HashMap å¿«é€ŸæŸ¥æ‰¾
+LinkedHashMap ä¿å­˜æ’å…¥é¡ºåºï¼Œå¹¶ä¿ç•™å¿«é€ŸæŸ¥è¯¢
 
-List ÌØ¶¨Ë³Ğò
-ArrayList ³¤ÓÚËæ»ú·ÃÎÊÔªËØ£¬²åÈëÒÆ³ı½ÏÂı
-LinkedList Ëæ»ú·ÃÎÊ½ÏÂı£¬²åÈëºÍÉ¾³ı½Ï¿ì ¿ÉÒÔÊµÏÖÕ»
+List ç‰¹å®šé¡ºåº
+ArrayList é•¿äºéšæœºè®¿é—®å…ƒç´ ï¼Œæ’å…¥ç§»é™¤è¾ƒæ…¢
+LinkedList éšæœºè®¿é—®è¾ƒæ…¢ï¼Œæ’å…¥å’Œåˆ é™¤è¾ƒå¿« å¯ä»¥å®ç°æ ˆ
 
 Arrays
 Arrays.asList
 
 Iterator
-ListIterator ÏòÇ°ºóÅÅĞò
+ListIterator å‘å‰åæ’åº
 Iterable
 
-Queue ÏÈ½øÏÈ³ö
-LinkedListÊµÏÖÁËQueue
+Queue å…ˆè¿›å…ˆå‡º
+LinkedListå®ç°äº†Queue
 PriorityQueue
 
 Collections
 --shuffle
 
-ĞÂ³ÌĞòÖĞ²»Ó¦¸ÃÊ¹ÓÃ¹ıÊ±µÄVector HashTableºÍStack
+æ–°ç¨‹åºä¸­ä¸åº”è¯¥ä½¿ç”¨è¿‡æ—¶çš„Vector HashTableå’ŒStack
 
 
-Í¬²½£º
+åŒæ­¥ï¼š
 
 Thread.setDefaultUncaughtExecptionHandle
 
@@ -55,7 +55,7 @@ AtomicInteger
 AtomicLong
 AtomicReference
 
-ÁÙ½çÇø Ò²½ĞÍ¬²½´úÂë¿é
+ä¸´ç•ŒåŒº ä¹Ÿå«åŒæ­¥ä»£ç å—
 
 volatile
 LinkedBlockingQueue
