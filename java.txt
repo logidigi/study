@@ -1,0 +1,62 @@
+Set 不允许重复
+TreeSet 比较的结果升序排列，红黑树
+LinkedHashSet 保存插入顺序，并保留快速查询
+HashSet 快速查找
+
+Map
+TreeMap 升序排列
+HashMap 快速查找
+LinkedHashMap 保存插入顺序，并保留快速查询
+
+List 特定顺序
+ArrayList 长于随机访问元素，插入移除较慢
+LinkedList 随机访问较慢，插入和删除较快 可以实现栈
+
+Arrays
+Arrays.asList
+
+Iterator
+ListIterator 向前后排序
+Iterable
+
+Queue 先进先出
+LinkedList实现了Queue
+PriorityQueue
+
+Collections
+--shuffle
+
+新程序中不应该使用过时的Vector HashTable和Stack
+
+
+同步：
+
+Thread.setDefaultUncaughtExecptionHandle
+
+Thread.UncaughtExecptionHandle
+
+setDaemon
+Callable
+
+
+ExecutorService
+	shutdownNow
+	awaitTermination
+	submit
+
+Future<String>
+Executors.newCachedThreadPool
+         .newSingleThreadExecutor
+         .newFixedThreadPool
+ReentrantLock
+	lockInterruptibly
+
+AtomicInteger
+AtomicLong
+AtomicReference
+
+临界区 也叫同步代码块
+
+volatile
+LinkedBlockingQueue
+ArrayBlockingQueue
