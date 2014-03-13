@@ -23,6 +23,8 @@ Queue 先进先出
 LinkedList实现了Queue
 PriorityQueue
 
+SynchronousQueue
+
 Collections
 --shuffle
 
@@ -35,19 +37,30 @@ Thread.setDefaultUncaughtExecptionHandle
 
 Thread.UncaughtExecptionHandle
 
-setDaemon
+	setDaemon
+	isDaemon
 Callable
 
+Executors.newCachedThreadPool   
+         .newSingleThreadExecutor
+         .newFixedThreadPool
+ThreadPoolExecutor  p663 
+ThreadFactory
 
 ExecutorService
 	shutdownNow
 	awaitTermination
 	submit
+Future
+	get具有block
+	isDone 
+	TimeUnit.MILLISECONDS.sleep
+
+Thread.currentThread().setPriority
+
+不要在构造器中执行thread的start，因为有完成没有构造完成
 
 Future<String>
-Executors.newCachedThreadPool
-         .newSingleThreadExecutor
-         .newFixedThreadPool
 ReentrantLock
 	lockInterruptibly
 
